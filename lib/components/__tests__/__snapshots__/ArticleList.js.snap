@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleList should match snapshot 1`] = `
+<div>
+  <ArticleWithStore
+    article={
+      Object {
+        "body": "body",
+        "date": "1970-01-01T00:00:00.100Z",
+        "id": "a",
+        "title": "title-a",
+      }
+    }
+    key="a"
+  />
+  <ArticleWithStore
+    article={
+      Object {
+        "body": "body",
+        "date": "1970-01-01T00:00:00.100Z",
+        "id": "b",
+        "title": "title-b",
+      }
+    }
+    key="b"
+  />
+</div>
+`;
