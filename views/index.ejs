@@ -8,6 +8,18 @@
   <script>
     window.initialData = <%- JSON.stringify(initialData) -%>
   </script>
+  <style>
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+      outline: none;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  </style>
 </head>
 <body>
   <div id="root"><%- initialMarkup -%></div>
