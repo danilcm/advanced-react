@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleItem should match the snapshot 1`] = `
+<div
+  style={
+    Object {
+      "marginBottom": 50,
+    }
+  }
+>
+  <h3
+    field="title"
+    style={
+      Object {
+        "fontFamily": "Product Sans",
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Introducing React's Error Code System
+  </h3>
+  <a
+    field="website"
+    href="https://twitter.com/en_JS"
+    style={
+      Object {
+        "color": "#1b649f",
+        "fontFamily": "Product Sans",
+        "fontSize": 15,
+        "fontWeight": "bold",
+        "textDecoration": "none",
+      }
+    }
+  >
+    Joseph Savona
+  </a>
+  <p
+    field="body"
+    style={
+      Object {
+        "fontFamily": "Georgia",
+        "maxWidth": 400,
+        "textAlign": "justify",
+      }
+    }
+  >
+    wire.
+  </p>
+  <span
+    field="date"
+    style={
+      Object {
+        "color": "#666666",
+        "fontFamily": "Product Sans",
+        "fontSize": 14,
+      }
+    }
+  >
+    Mon Jul 11 2016
+  </span>
+</div>
+`;
